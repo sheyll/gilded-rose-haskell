@@ -1,6 +1,11 @@
 # Haskell port of the Gilded-Rose Kata
 
-This is a Haskell port of the _Gilded-Rose-Kata_.
+This is a Haskell port of the *Gilded-Rose-Kata*. For more information on what
+to do with this project refer to:
+https://github.com/emilybache/GildedRose-Refactoring-Kata.
+
+Run `./install_deps.sh` initially, then `./test.sh` to execute the tests after
+information.
 
 Run `./install_deps.sh` initially, then `./test.sh` to execute the tests after
 each refactoring.
