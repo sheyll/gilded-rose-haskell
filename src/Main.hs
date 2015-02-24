@@ -5,11 +5,14 @@ import GildedRose
 
 
 main :: IO ()
-main = do putStrLn "OMGHAI!"
-          let inventoriesWithDay = inventories `zip` [0..]
-              inventories = iterate updateQuality initialInventory
-          numberOfDays <- daysFromArg
-          mapM_ printUpdate (take numberOfDays inventoriesWithDay)
+main = do
+  putStrLn "OMGHAI!"
+
+  let inventoriesWithDay = inventories `zip` [0..]
+      inventories = iterate updateQuality initialInventory
+
+  numberOfDays <- daysFromArg
+  mapM_ printUpdate (take numberOfDays inventoriesWithDay)
 
   where
     printUpdate :: (GildedRose, Int) -> IO ()
