@@ -21,7 +21,7 @@ updateQuality = map updateQualityItem
             if quality > 0
             then
               if name /= "Sulfuras, Hand of Ragnaros"
-              then quality + 1
+              then quality - 1
               else quality
             else quality
           else
