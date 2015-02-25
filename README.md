@@ -13,3 +13,4 @@ parameter for the number of days to simulate.
 
 Tests are in `test/GildedRoseSpec.hs`. Refer to http://hspec.github.io/ for
 more information about writing tests using `Hspec`.
+https://www.fpcomplete.com/ide?git=git://github.com/sheyll/gilded-rose-haskell.git
