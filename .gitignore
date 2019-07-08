@@ -3,8 +3,10 @@
 TAGS
 *.log
 *.profile
-/dist
+/dist*
+/.ghc*
 /cabal.config
+/cabal.project.local
 
 /.cabal-sandbox/
 /cabal.sandbox.config
