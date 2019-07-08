@@ -5,4 +5,4 @@
 #
 set -eu
 
-cabal -v0 run $@
+cabal new-run gilded-rose $@

@@ -5,5 +5,4 @@
 #
 set -eu
 
-cabal -v0 build
-./dist/build/spec/spec $@
+cabal new-test $@
