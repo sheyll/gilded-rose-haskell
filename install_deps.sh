@@ -5,6 +5,4 @@
 set -eu
 
 cabal new-update
-cabal new-build
 cabal new-install hspec-discover
-cabal new-test
